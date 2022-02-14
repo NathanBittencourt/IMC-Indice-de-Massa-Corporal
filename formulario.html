@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title></title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/formulario.js"></script>
+    </head>
+    <body>
+        <!-- conteúdo da página -->
+        <div class="container mt-5">
+            <!-- ínício do formulário -->
+            <form>
+                <!-- entrada de nome -->
+                <div class="mb-3">
+                    <label class="form-label" for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Informe seu nome">
+                </div>
+
+                <!-- entrada de altura -->
+                <div class="mb-3">
+                    <label class="form-label" for="altura">Altura</label>
+                    <input type="text" class="form-control" id="altura" placeholder="Informe sua altura">
+                </div>
+
+                <!-- entrada de peso -->
+                <div class="mb-3">
+                    <label class="form-label" for="peso">Peso</label>
+                    <input type="text" class="form-control" id="peso" placeholder="Informe seu peso">
+                </div>
+
+                <!-- botão de ação -->
+                <button type="button" id="btn-calcular" class="btn btn-primary">Calcular IMC</button>
+
+                <!-- div de comunicação entre JavaScript e usuário -->
+                <div class="mt-3" id="mensagem"></div> 
+            </form>
+            <!-- fim do formulário -->
+        </div>
+    </body>
+</html>
